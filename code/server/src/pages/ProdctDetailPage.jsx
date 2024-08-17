@@ -9,7 +9,7 @@ const ProductDetailPage = () => {
 
   useEffect(() => {
     const loadProduct = async () => {
-      const fetchedProduct = await fetchProductById('Laptop', productId); // Adjust the category as needed
+      const fetchedProduct = await fetchProductById('Laptop', productId); 
       setProduct(fetchedProduct);
     };
 
